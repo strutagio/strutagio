@@ -1,0 +1,128 @@
+html,body{
+    height:100%;
+}
+body{
+    overflow:hidden;    
+    background-image:url(../x2bg1.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gradient{
+    position: fixed;
+    height:145px;
+    width:100%;
+    bottom:0;
+    background-image:url();
+}
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #df0000;
+    text-align: center;
+    image-resolution: from-image;
+    overflow:hidden;
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#content .top, #content .bottom, #content .very_bottom{    
+    position: absolute;
+    width: 100%;
+}
+.top{    
+    top: 7%;
+}
+
+
+.bottom{
+    top: 15%;
+}
+
+.very_bottom{
+    bottom: 5%;
+}
+
+.Logo{
+  /*height: 288px;
+  width: 160px;*/
+    height: 4%;
+    width: 4%;
+  margin-left: auto;
+  margin-right: auto;
+    padding-top: 40px;
+}
+
+.SongTitle{
+  height: 35%;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+padding-top: 500px;
+}
+
+.title {
+    font-size: 0px;
+    letter-spacing: 4px;
+
+}
+.subtitle {
+    font-size: 0px;
+    letter-spacing: 4px;
+    line-height: 0.8em;
+}
+.tracks {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.links1 {
+    width: 100px;
+    height: 118px;
+    display: inline-block;
+    cursor: pointer;
+    background-position: top;
+}
+
+.links1.download:hover{
+    background-image:url(../download2.png);
+}
+.links1.download{
+    background-image:url(../download1.png);
+}
+
+.links{
+    font-size:0;
+}
+.link {
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    margin: 0 6px;
+    background-position: center top;
+    cursor: pointer;
+}
+.link:hover{
+    background-position: center bottom;
+}
+.link.facebook{
+    background-image:url(../yt.png);
+}
+.link.tumblr{
+    background-image:url(../in.png);
+}
+.link.instagram{
+    background-image:url(../sc.png);
+}
+.link.twitter{
+    background-image:url(../fb.png);
+}
+
+
+
+
